@@ -2,14 +2,16 @@
 This project aim to help you setup a c project easely and quickly.
 
 # How to install
-You can install the script with
+First of all you need to ensure that you are using the zsh shell.
+
+You can install the script with:
 ```
 ./install
 ```
 This will create an alias in your zshrc config file and copy the script in a hidden folder in your home directory.
 
 # How to use
-Once install you can create a new project using
+Once install you can create a new project using:
 ```
 new_project <project name> <lib flags>
 ```
