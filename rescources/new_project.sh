@@ -1,4 +1,10 @@
 #!/bin/bash
+if test -d "$1"
+then
+	echo ''$1' already exist'
+	exit 1
+fi
+
 cp -r /home/$USER/.project_creator/blank_project ./$1
 
 sed -i 1"s/$/$1&/g" ./$1/Makefile
