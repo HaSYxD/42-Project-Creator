@@ -21,4 +21,4 @@ The "lib flag" are flags to choose which 42 library you wich to include.
 
 Currently you can use: -lft -lprintf -lmlx
 
-If you wich to use your how library you can find the installed script in /home/user/.project_creator/. Inside the "blank_project" you can replace the libraries that are inside the LIB folder with your own. They MUST have the same name or the script wont work.
+If you wich to use your own library you can find the installed script in /home/user/.project_creator/. Inside the "blank_project" you can replace the libraries that are inside the LIB folder with your own. They MUST have the same name or the script wont work.
