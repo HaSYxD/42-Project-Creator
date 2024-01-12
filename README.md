@@ -6,7 +6,7 @@ First of all you need to ensure that you are using the zsh shell.
 
 You can install the script with:
 ```
-./install
+./install.sh
 ```
 This will create an alias in your zshrc config file and copy the script in a hidden folder in your home directory.
 
