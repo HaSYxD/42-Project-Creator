@@ -22,3 +22,6 @@ The "lib flag" are flags to choose which 42 library you wich to include.
 Currently you can use: -lft -lftprintf -lmlx_Linux
 
 If you wich to use your own library you can find the installed script in /home/user/.project_creator/. Inside the "blank_project" you can replace the libraries that are inside the LIB folder with your own. They MUST have the same name or the script wont work.
+
+# Updates
+If a new commit as been done and you want to update the script, you can just copy what's in the rescources folder inside /home/user/.project_creator/. A script for updates while come in the future.
