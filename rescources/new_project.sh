@@ -25,7 +25,7 @@ fi
 
 if [ "$2" = "-lftprintf" -o "$3" = "-lftprintf" -o "$4" = "-lftprintf" ]
 then
-	sed -i 14"s/$/ $\{LIBFTPRINTF}&/g" ./$1/Makefile
+	sed -i 14"s/$/ $\{LIBPRINTF}&/g" ./$1/Makefile
 	echo 'ft_printf included
 '
 else
